@@ -1,9 +1,10 @@
-# Webview
+# Sakura
 
-[![Build Status](https://travis-ci.org/xiejiangzhi/webview.svg?branch=master)](https://travis-ci.org/xiejiangzhi/webview)
-[![Gem Version](https://badge.fury.io/rb/webview.svg)](https://badge.fury.io/rb/webview)
+![Static Badge](https://img.shields.io/badge/build-unknown-pink)
+![Static Badge](https://img.shields.io/badge/version-0.1.7-pink)
 
-A webview GUI based on [zserge/webview](https://github.com/zserge/webview)
+
+A webview GUI based on [xiejiangzhi/webview](https://github.com/xiejiangzhi/webview) which is based on [zserge/webview](https://github.com/zserge/webview)
 
 
 ## Requirements
@@ -95,22 +96,9 @@ window.external.invoke('invalid_type' + ',' + 'my_data');
 * savefile: Open a dialog, and call rpc_cb('savefile', path, user_data) 
 
 
-## GUI Application
-
-If we build ruby binary for different systems, then we can public our App for normal user
-
-Some ways:
-
-* [Traveling Ruby](https://github.com/phusion/traveling-ruby). I have made a version to support ruby 2.6.3 [here](https://github.com/xiejiangzhi/traveling-ruby) for OSX and Linux
-* [Ruby Packer](https://github.com/pmq20/ruby-packer)
-
-
-When I finish my application, I will make a gem of the framework.
-
-
 ## TODO
 
-Test golang code by golang
+i don't know.
 
 ## Development
 
@@ -120,7 +108,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/webview.
+Bug reports and pull requests are welcome on GitHub at https://github.com/OfficialSeafoam/sakura.
 
 ## License
 
