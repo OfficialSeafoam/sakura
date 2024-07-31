@@ -3,7 +3,7 @@ webview_app: ext_package
 	cd webview && go build
 
 ext_package:
-	go get github.com/zserge/webview
+	go install github.com/zserge/sakura@latest
 	touch ext_package
   
 install:
